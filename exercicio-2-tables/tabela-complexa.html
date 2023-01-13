@@ -1,0 +1,66 @@
+<!--Caso:
+    2 lojas
+        Quantos produtos foram produzidos, quantos vendidos e agrupados por nome dos produtos
+-->
+
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Complexa</title>
+    <link rel="stylesheet" href="../exercicio-2-tables/styles.css" type="text/css">
+</head>
+
+<body>
+    <h1>Tabela complexa</h1>
+    <nav><a href="../exercicio-2-tables/index.html">Pag inicial</a></nav>
+    <br>
+    <table>
+        <caption>Produzidos x Vendidos por Loja</caption>
+
+        <colgroup> <!--Tag para agrupar colunas-->
+            <col>
+            <col span="2" style="background-color: yellow; ">
+            <col span="2" style="background-color: green;">
+
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th rowspan="2"></th> <!--rowspan: ocupa X linhas, no caso 2-->
+                <th colspan="2" scope="colgroup">Afonso Pena</th>
+                <!--colspan: ocupa X colunas, no caso 2; scope: ajuda para acessibilidade entender que tem agrupamento-->
+                <th colspan="2" scope="colgroup">Antonia Pereira</th>
+            </tr>
+            <tr>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Vassouras</th>
+                <td>50</td>
+                <td>30</td>
+                <td>20</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <th scope="row">Baldes</th>
+                <td>10</td>
+                <td>10</td>
+                <td>30</td>
+                <td>25</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</body>
+
+</html>
