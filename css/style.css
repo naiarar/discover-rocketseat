@@ -36,3 +36,9 @@ code {
 .m-40 {
     margin: 100px;
 }
+
+.box1 {
+    border: 5px solid green;
+    margin: 200px;
+    padding: 60px;
+}
