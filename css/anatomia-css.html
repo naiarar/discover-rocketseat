@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./icon/5968242.png">
+</head>
+
+<body>
+
+    <h1>Aula CSS</h1>
+    <section>
+        <h2>Anatomia do CSS</h2>
+        <p>
+            Colocamos o nome de algum elemento, uma chave aberta e uma fechada embaixo, e no meio vamos ter propriedades
+            e
+            seus valores.
+        </p>
+        <p>
+            Toda propriedade é seguida de : (dois pontos) e um valor e um ; (ponto e vírgula) para encerrar essa ideia
+            de
+            valor.
+        </p>
+
+        <p>
+            Segue ex:
+
+            <code>
+                <pre>
+                h1 {
+                    color: blue;
+                    font-size: 60px;
+                    background: gray;
+                }
+                </pre>
+
+            </code>
+        </p>
+        <p>
+            Os elementos do CSS são então:
+
+        <ul>
+            <li>Selectors: Nesse caso o h1, que vai buscar no HTML a tag h1 e aplicar as mudanças.
+            </li>
+            <li>
+                Declaration: As chaves e tudo dentro delas.
+            </li>
+            <li>
+                Properties: As coisas a serem alteradas.
+            </li>
+            <li>
+                Property values: Os novos valores que estamos atribuindo a tais propriedades.
+            </li>
+        </ul>
+        </p>
+    </section>
+    <section>
+        <h2>Selectors/Seletores</h2>
+        <h3>Tipos</h3>
+        <p>
+        <ul>
+            <li><strong>Global selector: </strong>&apos; &ast; &apos;</li>
+            <li><strong>Element/Type selector: </strong>& apos; h1, h2, p, div &apos;</li>
+            <li><strong>ID Selector: </strong> &apos; &num;box, &num;container&apos;</li>
+            <li><strong>Class Selector: </strong>&apos; &period;red &apos;, &period;m&dash;4 &apos;</li>
+            <li>Attribute selector, Pseudo&dash;class, Pseudo&dash;element, e outros</li>
+        </ul>
+
+        </p>
+    </section>
+    <div id="container" class="m-40">
+        <h1>Utilização da div</h1>
+        <h3>Para agrupar propriedades</h3>
+    </div>
+
+</body>
+
+</html>
