@@ -1,0 +1,38 @@
+* {
+    margin: 10;
+    background: black;
+    color: gainsboro;
+    font-size: 20px;
+}
+
+h1 {
+    color: blue;
+    font-size: 50px;
+
+}
+
+h2,
+h3 {
+    color: yellow;
+    font-size: 30px;
+
+}
+
+code {
+
+    color: white;
+    display: block;
+}
+
+#container {
+    width: 200px;
+
+}
+
+#container h1 {
+    color: aquamarine;
+}
+
+.m-40 {
+    margin: 100px;
+}
