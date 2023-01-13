@@ -37,8 +37,20 @@ code {
     margin: 100px;
 }
 
-.box1 {
+#box1 {
     border: 5px solid green;
-    margin: 200px;
-    padding: 60px;
+    margin: 3px;
+    padding: 10px;
+}
+
+#box2 {
+    border: 5px solid purple;
+    margin: 4px;
+    padding: 10px;
+}
+
+#box3 {
+    border: 5px solid gray;
+    margin: 5px;
+    padding: 10px;
 }
