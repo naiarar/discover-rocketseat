@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shorthand</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <nav><a href="../index-css.html">Página inicial</a></nav>
+    <h1>Shorthand</h1>
+    <section>
+        <p>É um método para colocar diversas propriedades do CSSS de maneira mais resumida e mais legivel</p>
+    </section>
+    <section>
+        <h2>Exemplo background</h2>
+        <h3>Método CSS</h3>
+        <code>
+        <pre>
+            &lcub;
+                background&dash;color&colon; &num;000&semi;
+                background&dash;image&colon; url&lpar;images&sol;bg&period;gif&rpar;&semi;
+                background&dash;repeat&colon; no&dash;repeat&semi;
+                background&dash;position&colon; left loop&semi;
+            &rcub;
+        </pre>
+    </code>
+        <h3>Método Shorthand</h3>
+        <code>
+        <pre>
+            &lcub;
+                background&colon; &num;000 url&lpar;images&sol;bg&period;gif&rpar; no&dash;repeat left loop&semi;
+            &rcub;
+        </pre>
+    </code>
+    </section>
+    <section>
+        <h2>Exemplo font</h2>
+        <h3>Método CSS</h3>
+        <code>
+        <pre>
+            &lcub;
+                font&dash;style&colon; italic&semi;
+                font&dash;weight&colon; bold&semi;
+                font&dash;size&colon; &period;8em&semi;
+                line&dash;height&colon;1&period;2&semi;
+                font&dash;family&colon; Arial&comma; sans&ndash;serif&semi;
+            &rcub;
+        </pre>
+    </code>
+        <h3>Método Shorthand</h3>
+        <code>
+        <pre>
+            &lcub;
+                font&colon; italic bold &period;8em&sol;1&period;2 Arial&comma; sans&ndash;serif&semi;
+            &rcub;
+        </pre>
+    </code>
+    </section>
+
+    <h2 id="important">Importante</h2>
+    <ul>
+        <li>Não irá considerar propriedades anteriores, o shorthand é mais forte que as propriedades normais</li>
+        <li>valores não especificados irão assumir valor padrão</li>
+        <li>geralmente a ordem da escrita não importa, mas, se houver muitas propriedades com valores semelhantes,
+            poderemos encontrar problemas</li>
+    </ul>
+
+
+
+</body>
+
+</html>
