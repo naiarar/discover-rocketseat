@@ -1,0 +1,18 @@
+* {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+h1 {
+    color: red;
+    font-size: 50px;
+}
+
+h1 {
+    color: blue;
+}
+
+#important {
+    color: red;
+}
