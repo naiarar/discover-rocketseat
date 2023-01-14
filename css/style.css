@@ -11,11 +11,15 @@ h1 {
 
 }
 
-h2,
-h3 {
+h2 {
     color: yellow;
     font-size: 30px;
 
+}
+
+h3 {
+    color: lightblue;
+    font-size: 25px;
 }
 
 code {
@@ -53,4 +57,9 @@ code {
     border: 5px solid gray;
     margin: 5px;
     padding: 10px;
+}
+
+#important {
+    color: red;
+    font: italic bold .8em/1.2 Arial, sans–serif;
 }
