@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascata</title>
+    <link rel="stylesheet" href="../pages/styles/cascata.css">
+</head>
+
+<body>
+    <nav><a href="../index-css.html">Página inicial</a></nav>
+    <h1>Cascata</h1>
+    <p>Temos 3 formas de adc um estilo css no html</p>
+    <ol>
+        <li><strong>Inline: </strong> Ao escrever a sua tag coloca o style direto. Ex.:
+            <code>
+                <pre>
+                    &lt;h1 style&equals;"color:green"&gt;Titulo&lt;&sol;h1&gt;
+                </pre>
+            </code>
+        </li>
+        <li><strong>Tag style: </strong>coloca a tag no inicio do codigo html.Ex.:
+            <code>
+                <pre>
+                    &lt;style&gt;
+                        h1 &lcub;
+                            color: gray;
+                        &rcub;
+                    &lt;&sol;style&gt;    
+                </pre>
+            </code>
+        </li>
+        <li><strong>Link externo: </strong> O link é anexado a página primcipal depois do titulo.Ex.:
+            <pre>
+                &lt;link&gt; rel&equals;&quot;stylesheet&quot;href&equals;&quot;style&period;css&quot;&gt;    
+            </pre>
+            </code>
+        </li>
+
+
+    </ol>
+
+    <p id="important">A leitura da cascata é de cima pra baixo, SEMPRE vai funcionar a de baixo se tiver em duplicidade
+    </p>
+    <p>O selector universal &ast; tem valor de 0, mesmo que eles esteja abaixo de todos ele só vai valer se não
+        houver nenhum outro seletor especifico </p>
+    <ul>Nível de força do menos forte para o mais forte:
+        <li>Selector Universal &ast; é o mais fraco &equals;0</li>
+        <li>Element type selector e pseudo element &equals;1</li>
+        <li>Classes e attribute &equals;10</li>
+        <li>ID selector &equals;100</li>
+        <li>Inline é o mais forte &equals;1000</li>
+        <br>
+        <strong>As forças dos elementos podem ser somadas</strong>
+
+
+    </ul>
+    <p>Caso utilize uma biblioteca CSS de alguém e não conseguir editar algo, pode ser usado &excl;important que ele
+        força acima de tudo o css. Mas só deve ser usado <strong>NESTE </strong> caso.</p>
+</body>
+
+</html>
